@@ -22,10 +22,17 @@ body {
     padding: 10px 20px;
     border-radius: 10px;
     color: honeydew;
+    display: inline-block;
 }
 
 .half-width img {
     width: 80%;
+}
+
+.half-width p {
+    color: gray;
+    margin-bottom: 30px;
+
 }
 
 .orange-color {
@@ -42,14 +49,12 @@ h3 {
     font-size: 40px;
 }
 
-p {
-    color: gray;
-    margin-bottom: 50px;
-}
+p {}
 
 .about-me {
     background-image: url(images/about-me.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     background-size: cover;
 }
 
@@ -63,6 +68,12 @@ p {
 .center-heading {
     text-align: center;
 }
+
+.center-heading p {
+    color: gray;
+}
+
+
 
 .item-area {
     display: flex;
@@ -79,6 +90,10 @@ p {
     padding: 3%;
     overflow: hidden;
 
+}
+
+.item p {
+    color: gray;
 }
 
 .item img {
@@ -103,7 +118,14 @@ p {
     margin-left: 15%;
 }
 
-footer {
+.footer-area {
+    padding-top: 2%;
     background-color: cadetblue;
-    height: 200px;
+    height: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+.footer-area p {
+    color: lavender;
 }
