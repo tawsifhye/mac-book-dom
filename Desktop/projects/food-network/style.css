@@ -74,9 +74,9 @@ p {
     width: 25%;
     margin-left: 5%;
     margin-right: 5%;
-    box-shadow: 10px 10px 70px grey;
+    box-shadow: 10px 10px 50px aqua;
     border-radius: 30px;
-    padding: 2%;
+    padding: 3%;
     overflow: hidden;
 
 }
@@ -87,4 +87,23 @@ p {
     display: block;
     border-radius: 20px;
 
+}
+
+.subscription {
+    width: 50%;
+    box-shadow: 10px 10px 50px aqua;
+    display: flex;
+    margin-bottom: 10%;
+    margin-left: 20%;
+    border-radius: 30px;
+}
+
+.subscription-item {
+    width: 15%;
+    margin-left: 15%;
+}
+
+footer {
+    background-color: cadetblue;
+    height: 200px;
 }
